@@ -1,0 +1,34 @@
+# Dependencias
+/node_modules
+/**/node_modules
+
+# Lock files (si prefieres no versionar ninguno)
+/package-lock.json
+/yarn.lock
+
+# Vite / React / Dist builds
+/dist
+/build
+/.vite
+/.cache
+
+# Config de editor
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# TypeScript
+*.tsbuildinfo
+
+# IDEs y otros
+.idea/
+*.iml
