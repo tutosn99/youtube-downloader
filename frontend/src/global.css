@@ -1,0 +1,64 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #6366f1;
+  --color-secondary: #f472b6;
+  --color-background: #f9fafb;
+  --color-text-main: #1f2937;
+  --color-success: #34d399;
+  --color-warning: #fbbf24;
+  --color-error: #f87171;
+
+  --color-white-alabaster-100: #FCFCFC;
+  --color-white-alabaster-200: #F7F7F7;
+  --color-white-alabaster-300: #F2F2F2;
+  --color-white-alabaster-400: #ECECEC;
+  --color-white-alabaster-500: #E7E7E7;
+
+  --color-white-ivory-100: #FFFFFA;
+  --color-white-ivory-200: #FFFFF5;
+  --color-white-ivory-300: #FFFFEF;
+  --color-white-ivory-400: #FFFFEA;
+  --color-white-ivory-500: #FFFFE5;
+
+  --color-white-ghostWhite-100: #FBFBFF;
+  --color-white-ghostWhite-200: #F7F7FE;
+  --color-white-ghostWhite-300: #F3F3FD;
+  --color-white-ghostWhite-400: #EFEFFD;
+  --color-white-ghostWhite-500: #EBEBFC;
+
+  --color-white-linen-100: #FCF7F2;
+  --color-white-linen-200: #F9EFE5;
+  --color-white-linen-300: #F6E7D8;
+  --color-white-linen-400: #F3DFCB;
+  --color-white-linen-500: #F0D7BE;
+
+  --color-white-platinum-100: #F6F6FA;
+  --color-white-platinum-200: #ECEBF5;
+  --color-white-platinum-300: #E2E1F0;
+  --color-white-platinum-400: #D8D7EB;
+  --color-white-platinum-500: #CECCE6;
+
+  --color-white-azure-100: #F7FFFF;
+  --color-white-azure-200: #EFFFFF;
+  --color-white-azure-300: #E7FFFF;
+  --color-white-azure-400: #DFFFFF;
+  --color-white-azure-500: #D7FFFF;
+
+  --color-white-cultured-100: #FAFAFA;
+  --color-white-cultured-200: #F7F7F7;
+  --color-white-cultured-300: #F2F2F2;
+  --color-white-cultured-400: #ECECEC;
+  --color-white-cultured-500: #E7E7E7;
+
+  --color-white-oldlace-100: #FEFAF2;
+  --color-white-oldlace-200: #FDF5E6;
+  --color-white-oldlace-300: #FBF0DA;
+  --color-white-oldlace-400: #F9EBCD;
+  --color-white-oldlace-500: #F7E6C1;
+
+}
+
+body{
+  background-color: var(--color-background);
+}

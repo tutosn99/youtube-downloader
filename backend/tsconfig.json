@@ -1,13 +1,11 @@
-{
-  "compilerOptions": {
-    "target": "ES6", // or ESNext
-    "module": "commonjs",
-    "strict": true,
-    "esModuleInterop": true,
-    "skipLibCheck": true,
-    "forceConsistentCasingInFileNames": true,
-    "outDir": "./dist" // Optional: where to output compiled files
-  },
-  "include": ["src/**/*"],
-  "exclude": ["node_modules"]
-}
+  {
+    "compilerOptions": {
+      "target": "es2022",               // o "esnext"
+      "module": "esnext",
+      "moduleResolution": "node",
+      "esModuleInterop": true,
+      "forceConsistentCasingInFileNames": true,
+      "strict": true,
+      "skipLibCheck": true
+    }
+  }
