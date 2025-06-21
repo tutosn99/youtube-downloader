@@ -8,21 +8,22 @@ export const MainSearch: React.FC = () => {
   const [quantitySearch, setQuantitySearch] = useState<number>(1);
   const { cambiarLista } = useListSong();
 
-  const handleSubmit = (event: { preventDefault: () => void; }) => {
+  const handleSubmit = (event: { preventDefault: () => void }) => {
     event.preventDefault();
     searchSongs({ query: searchText, quantity: quantitySearch })
       .then((results) => {
-        if (results.error){return console.log('Faltó un dato')}
-        cambiarLista(results)
+        if (results.error) {
+          return console.log("Faltó un dato");
+        }
+        cambiarLista(results);
       })
       .catch((error) => {
         console.error("Error al buscar canciones:", error);
       });
   };
 
-
   return (
-    <main className="px-5 my-10 mx-auto w-7/10  border">
+    <main className="px-5 my-10 mx-auto w-7/10 rounded  bg-white-alabaster-100 shadow-[0_0_0_2px_#06182c66] shadow-[0_4px_6px_-1px_#06182ca5] shadow-[0_1px_0px_inset_#ffffff14]">
       <form
         className="flex justify-center flex-wrap py-2"
         onSubmit={handleSubmit}
@@ -35,6 +36,7 @@ export const MainSearch: React.FC = () => {
               type="text"
               name="title"
               id="title"
+              placeholder="Ingresar texto..."
               required
               onChange={(e) => setSearchText(e.target.value)}
             />

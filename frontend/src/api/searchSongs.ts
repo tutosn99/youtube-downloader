@@ -25,7 +25,7 @@ export async function searchSongs({ query, quantity }: IsearchSongs) {
     }
 
     const data = await res.json();
-    console.log(data)
+    // console.log(data)
     return data;
     // eslint-disable-next-line @typescript-eslint/no-unused-vars
   } catch (err) {

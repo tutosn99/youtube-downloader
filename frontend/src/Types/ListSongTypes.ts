@@ -5,7 +5,7 @@ export type Video = {
   quantity: number;
   duration: number;
   author: string;
-  thumbnail: string;
+  thumbnails: string;
 };
 export type List = Video[];
 
