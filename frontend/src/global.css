@@ -3,11 +3,35 @@
 @theme {
   --color-primary: #6366f1;
   --color-secondary: #f472b6;
-  --color-background: #FFFFFA;
+  --color-background: var(--color-white-alabaster-100);
   --color-text-main: #1f2937;
   --color-success: #34d399;
   --color-warning: #fbbf24;
   --color-error: #f87171;
+
+  --color-blue-ribbon-50: #eff4ff;
+  --color-blue-ribbon-100: #dbe6fe;
+  --color-blue-ribbon-200: #bfd3fe;
+  --color-blue-ribbon-300: #93b4fd;
+  --color-blue-ribbon-400: #6090fa;
+  --color-blue-ribbon-500: #3b76f6;
+  --color-blue-ribbon-600: #2563eb;
+  --color-blue-ribbon-700: #1d58d8;
+  --color-blue-ribbon-800: #1e4baf;
+  --color-blue-ribbon-900: #1e408a;
+  --color-blue-ribbon-950: #172a54;
+
+  --color-green-esmerald-50: #e6f9f0;
+  --color-green-esmerald-100: #c3f0db;
+  --color-green-esmerald-200: #9ee7c6;
+  --color-green-esmerald-300: #79ddb1;
+  --color-green-esmerald-400: #5fd39e;
+  --color-green-esmerald-500: #59cd90;
+  --color-green-esmerald-600: #41b87a;
+  --color-green-esmerald-700: #349c67;
+  --color-green-esmerald-800: #287e53;
+  --color-green-esmerald-900: #1c6040;
+  --color-green-esmerald-950: #0f3a24;
 
   --color-white-alabaster-100: #FCFCFC;
   --color-white-alabaster-200: #F7F7F7;
