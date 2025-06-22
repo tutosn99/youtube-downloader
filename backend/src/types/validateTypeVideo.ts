@@ -1,4 +1,4 @@
-import { requestSchema } from "../types/requestType";
+import { requestSchema } from "./requestType";
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 export function validateTypeVideo(search: any): {

@@ -1,5 +1,6 @@
 import { dataType } from "../types/dataType";
 import { GetListByKeyword } from "youtube-search-api";
+import {parsedResultByTitle} from '../helpers/ParsedResults'
 
 export async function searchVideobyTitle(data: dataType) {
   console.log("Buscando videos", data);
@@ -7,7 +8,8 @@ export async function searchVideobyTitle(data: dataType) {
     return { error: "Error en el tipo" };
   }
 
-  const results = await GetListByKeyword(data.title, false, 2);
+  const respuesta = await GetListByKeyword(data.title, false, 2);
+  const results = parsedResultByTitle(respuesta)
   console.log("Resultados:", results);
   return results;
 }
