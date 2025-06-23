@@ -32,3 +32,7 @@ yarn-error.log*
 # IDEs y otros
 .idea/
 *.iml
+
+# .env data
+.env
+
